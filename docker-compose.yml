@@ -1,0 +1,30 @@
+version: '2'
+services:
+  wordpress:
+    env_file: .nateandxtina.com.env
+    depends_on:
+      - db
+    image: wordpress:latest
+    restart: unless-stopped
+    links:
+      - db:mysql
+    volumes:
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    environment:
+      - VIRTUAL_HOST=nateandxtina.com, www.nateandxtina.com
+      #- HTTPS_METHOD=noredirect
+      #- VIRTUAL_PROTO=https
+    networks:
+      - internal
+      - nginx-proxy
+  db:
+    env_file: .nateandxtina.com.env
+    image: mariadb
+    restart: unless-stopped
+    networks:
+      - internal
+
+networks:
+    internal:
+    nginx-proxy:
+        external: true
