@@ -1,1 +1,1 @@
-)1OX<?php exit; ?>0
+-NOX<?php exit; ?>0
