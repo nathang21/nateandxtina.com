@@ -7,7 +7,7 @@
 /sitemap.xml.gz
 
 .*.env
-./db/*
-./html/*
-./html
-./db
+
+html/*
+db/*
+code/*
