@@ -1,0 +1,10 @@
+	Ã'X<?php exit; ?>a:1:{s:7:"content";O:8:"stdClass":23:{s:2:"ID";s:3:"661";s:11:"post_author";s:1:"3";s:9:"post_date";s:19:"2016-07-07 03:39:38";s:13:"post_date_gmt";s:19:"2016-07-07 03:39:38";s:12:"post_content";s:1085:"This morning we woke early to cook some eggs for breakfast like old times. Then we drove to the San Francisco Airport for Christina's return flight to Orlando.
+
+After 17 days of non-stop, as much as we were ready for long distance, it was hard to say bye.
+
+<a href="https://www.nateandxtina.com/wp-content/uploads/2016/07/wp-1467862505430.jpg"><img class="wp-image-660 size-full aligncenter" src="https://www.nateandxtina.com/wp-content/uploads/2016/07/wp-1467862505430.jpg" alt="" width="800" height="600" /></a><a href="https://www.nateandxtina.com/wp-content/uploads/2016/07/wp-1467862452608.png"><img class="wp-image-659 size-full aligncenter" src="https://www.nateandxtina.com/wp-content/uploads/2016/07/wp-1467862452608.png" alt="" width="1440" height="2560" /></a>
+Till September (when Christina visits again before her AmeriCorps service) when the adventures continue.
+
+*Note: All 500+ photos have been uploaded to the album (Top menu "Photos").
+
+P.S. After much delay, stress, and complications, Christina finally caught a redeye home to Orlando safely. See you soon!";s:10:"post_title";s:27:"Finale - SFO --> MCO 7/4/16";s:12:"post_excerpt";s:0:"";s:11:"post_status";s:7:"publish";s:14:"comment_status";s:4:"open";s:11:"ping_status";s:4:"open";s:13:"post_password";s:0:"";s:9:"post_name";s:19:"finale-sfo-mco-7416";s:7:"to_ping";s:0:"";s:6:"pinged";s:0:"";s:13:"post_modified";s:19:"2016-07-07 03:39:38";s:17:"post_modified_gmt";s:19:"2016-07-07 03:39:38";s:21:"post_content_filtered";s:0:"";s:11:"post_parent";s:1:"0";s:4:"guid";s:35:"https://www.nateandxtina.com/?p=661";s:10:"menu_order";s:1:"0";s:9:"post_type";s:4:"post";s:14:"post_mime_type";s:0:"";s:13:"comment_count";s:1:"3";}}
