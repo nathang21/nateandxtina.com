@@ -10,4 +10,5 @@
 
 html/*
 db/*
+mariadb/*
 code/*

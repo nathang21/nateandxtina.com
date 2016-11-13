@@ -9,16 +9,18 @@ services:
     links:
       - db:mysql
     volumes:
-      - /var/run/docker.sock:/tmp/docker.sock:ro
+     # - /var/run/docker.sock:/tmp/docker.sock:ro
       - ./code:/code
       - ./html:/var/www/html
+    expose:
+      - 80
+      - 443
     networks:
       - internal
       - nginx-proxy
     environment:
       - VIRTUAL_HOST=nateandxtina.com, www.nateandxtina.com
-      #- HTTPS_METHOD=noredirect
-      #- VIRTUAL_PROTO=https
+      - COMPOSE_PROJECT_NAME=nateandxtina.com
   db:
     image: mariadb
     env_file: .nateandxtina.com.env
