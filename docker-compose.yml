@@ -5,20 +5,13 @@ services:
     depends_on:
       - db
     image: wordpress:latest
-<<<<<<< HEAD
     restart: always
-=======
-    restart: unless-stopped
->>>>>>> 27d1311b40c9e86c72e7fce54e590604f2105e4c
     links:
       - db:mysql
     volumes:
       - /var/run/docker.sock:/tmp/docker.sock:ro
-<<<<<<< HEAD
       - ./code:/code
       - ./html:/var/www/html
-=======
->>>>>>> 27d1311b40c9e86c72e7fce54e590604f2105e4c
     environment:
       - VIRTUAL_HOST=nateandxtina.com, www.nateandxtina.com
       #- HTTPS_METHOD=noredirect
@@ -28,7 +21,6 @@ services:
       - nginx-proxy
   db:
     env_file: .nateandxtina.com.env
-<<<<<<< HEAD
     volumes:
        - "./db:/var/lib/mysql"
     image: mariadb
@@ -43,12 +35,10 @@ services:
     image: phpmyadmin/phpmyadmin
     links:
         - db:mysql
-=======
     image: mariadb
     restart: unless-stopped
     networks:
       - internal
->>>>>>> 27d1311b40c9e86c72e7fce54e590604f2105e4c
 
 networks:
     internal:
