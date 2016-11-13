@@ -1,14 +1,14 @@
 *.log
-wp-config.php
-wp-content/advanced-cache.php
-wp-content/backup-db/
-wp-content/backups/
-wp-content/blogs.dir/
-wp-content/cache/
-wp-content/upgrade/
-wp-content/uploads/
-wp-content/wp-cache-config.php
-wp-content/plugins/hello.php
+html/wp-config.php
+html/wp-content/advanced-cache.php
+html/wp-content/backup-db/
+html/wp-content/backups/
+html/wp-content/blogs.dir/
+html/wp-content/cache/
+html/wp-content/upgrade/
+html/wp-content/uploads/
+html/wp-content/wp-cache-config.php
+html/wp-content/plugins/hello.php
 
 /.htaccess
 /license.txt
@@ -17,3 +17,4 @@ wp-content/plugins/hello.php
 /sitemap.xml.gz
 
 .*.env
+./db/*
