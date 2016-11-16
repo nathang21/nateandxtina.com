@@ -6,11 +6,7 @@ services:
     depends_on:
       - db
     restart: always
-    links:
-      - db:mysql
-    volumes:
-     # - /var/run/docker.sock:/tmp/docker.sock:ro
-      - ./code:/code
+    volumes:  
       - ./html:/var/www/html
     expose:
       - 80
@@ -35,8 +31,6 @@ services:
     depends_on:
       - db
     restart: always
-    links:
-        - db:mysql
     networks:
       - internal
 
