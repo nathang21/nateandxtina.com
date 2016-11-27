@@ -1,5 +1,6 @@
 version: '2'
 services:
+
   wordpress:
     image: wordpress:latest
     env_file: .nateandxtina.com.env
@@ -16,7 +17,12 @@ services:
       - nginx-proxy
     environment:
       - VIRTUAL_HOST=nateandxtina.com, www.nateandxtina.com
+      - VIRTUAL_PORT=80
       - COMPOSE_PROJECT_NAME=nateandxtina.com
+      - LETSENCRYPT_HOST=nateandxtina.com, www.nateandxtina.com
+      - LETSENCRYPT_EMAIL=nathanpguenther@gmail.com
+      #- HTTPS_METHOD=nohttp
+
   db:
     image: mariadb
     env_file: .nateandxtina.com.env
@@ -25,6 +31,7 @@ services:
        - "./db:/var/lib/mysql"
     networks:
       - internal
+  
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     env_file: .nateandxtina.com.env
@@ -33,6 +40,7 @@ services:
     restart: always
     networks:
       - internal
+
 
 networks:
     internal:
