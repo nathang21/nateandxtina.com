@@ -1,5 +1,7 @@
 # nateandxtina.com
-Wordpress site hosted with docker behind nginx-proxy
+Persistant and safe Wordpress site hosted with docker behind nginx-proxy.  
 
-docker-compose pull
-docker-compose up -d
+Run:  
+1. git clone  
+2. docker-compose pull  
+3. docker-compose up -d
